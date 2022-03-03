@@ -1,0 +1,69 @@
+tml {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  .header, .publicacion, .encabezado{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-direction: row;
+      gap: 16px;
+  }
+
+ .header >*, .publicacion >* {
+   /* background-color: rgba(202, 194, 194, 0.171);*/
+    width: 500px;
+    padding: 16px;
+    border-radius: 8px;
+
+ }
+  .header > *,.publicacion >*{
+     width: 500px;
+  }
+  .header{
+    justify-content: space-between;
+    justify-items: center;
+    
+  }
+  .camera{
+      width: auto;
+      height: 34px;
+      justify-content: ;
+  }
+
+  .h1{
+    font-family: 'Satisfy', cursive;
+    margin: 0px;
+    width: auto;
+    justify-items: center;
+    } 
+  .message{
+      width: auto;
+      height: 34px;
+  }
+   hr{
+   border: 1px solid rgb(235, 233, 233, 0.459);
+   }
+
+   .publicacion{
+    flex-direction: column;
+    gap: .5px;
+    justify-items: center;
+   }
+   
+      
+  .imagenperfil{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+  }
+  .nombredeusuario{
+    font-family: 'Roboto', sans-serif;
+  }
+  .publicacionimagen{
+      width: 500px;
+      height: auto;
+      border-radius: 25px;
+  }
+  

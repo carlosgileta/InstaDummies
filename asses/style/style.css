@@ -10,7 +10,15 @@ tml {
       flex-direction: row;
       gap: 16px;
   }
-
+  .body{
+    background-color: rgb(253, 245, 245);
+  }
+  .back-color{
+    background-color: white;
+  }
+  .1rem{
+    top: 1rem;
+  }
  .header >*, .publicacion >* {
    /* background-color: rgba(202, 194, 194, 0.171);*/
     width: 500px;
@@ -29,7 +37,7 @@ tml {
   .camera{
       width: auto;
       height: 34px;
-      justify-content: ;
+      
   }
 
   .h1{
@@ -51,7 +59,12 @@ tml {
     gap: .5px;
     justify-items: center;
    }
-   
+   .encabezado{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 0px;
+   }
       
   .imagenperfil{
       width: 50px;
@@ -60,10 +73,63 @@ tml {
   }
   .nombredeusuario{
     font-family: 'Roboto', sans-serif;
+    width: 373px;
   }
   .publicacionimagen{
       width: 500px;
       height: auto;
       border-radius: 25px;
   }
-  
+  .estados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 500px;
+     height: 40px;
+     gap: 35px;
+     
+  }
+  .icono-pie{
+    display:  flex;
+    justify-content: center;
+    width: 500px;
+    height: 25px;
+   
+  }
+  .perfil-nombre{
+    display: flex;
+    gap: 25px;
+  }
+  .puntos{
+    width: auto;
+    height: 21px;
+  }
+  .iconos{
+    width: auto;
+      height: 28px;
+  }
+  .bookmark{
+    display: flex;
+    justify-content: end;
+    width: 400px;
+  }
+  .comentarios{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: 531px;
+    height: 20px;
+    padding: 15px 0px;
+    border-radius: 0px;
+    justify-content: center;
+    justify-items: center;
+  }
+  .textarea{
+    width: 350px;
+    height: 20px;
+  }
+  .publicar{
+    background-color: white;
+     border: 0px;
+     color: rgba(18, 60, 247, 0.61);
+  }
